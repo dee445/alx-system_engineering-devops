@@ -2,3 +2,4 @@
 1-who_am_i script prints the effective username of the current user.
 chmod u+x (filename) script prints all the groups the current user is part of.
 Chown betty hello script changes the owner of the file hello to the user betty.
+touch hello script creates an empty file called hello.

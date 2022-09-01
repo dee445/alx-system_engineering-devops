@@ -5,3 +5,4 @@ The ls -l script displays the current directory contents in a long format.
 The ls -la script diplays current directory contents, including hidden files (starting with .)
 The ls -na script displays current directory contents, long format, with user and group IDs displayed numerically, and hidden files (starting with .)
 The mkdir script creates a directory named my_first_directory in the /tmp/ directory.
+The mv script moves the file betty from /tmp/ to /tmp/my_first_directoryi

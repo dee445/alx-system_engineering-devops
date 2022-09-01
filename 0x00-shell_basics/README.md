@@ -8,4 +8,4 @@ The mkdir script creates a directory named my_first_directory in the /tmp/ direc
 The mv script moves the file betty from /tmp/ to /tmp/my_first_directory
 The rm script deletes the file betty
 The rm -r script deletes the directory my_first_directory that is in the /tmp directory
-
+The cd - script changes the working directory to the previous one.

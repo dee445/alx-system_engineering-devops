@@ -3,3 +3,4 @@
 chmod u+x (filename) script prints all the groups the current user is part of.
 Chown betty hello script changes the owner of the file hello to the user betty.
 touch hello script creates an empty file called hello.
+chmod u+x hello script adds execute permission to the owner of the file hello.

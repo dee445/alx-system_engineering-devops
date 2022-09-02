@@ -9,3 +9,4 @@ chmod a+x hello script adds execution permission to the owner, the group owner a
 chmod 007 hello script sets the permission to the file hello as follows; Owner: no permission at all, Group: no permission at all.
 chmod 753 hello script sets the mode of the file hello to this:i
 chod --reference=olleh hello scriptsets the mode of the file hello the same as olleh’s mode.
+chmod -R a+X . script adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.

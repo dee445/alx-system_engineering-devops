@@ -11,3 +11,4 @@ chmod 753 hello script sets the mode of the file hello to this:i
 chod --reference=olleh hello scriptsets the mode of the file hello the same as olleh’s mode.
 chmod -R a+X . script adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
 mkdir -m 751 my_dir script creates a directory called my_dir with permissions 751 in the working directory.
+chgrp school hello script changes the group owner to school for the file hello.

@@ -12,3 +12,7 @@ chod --reference=olleh hello scriptsets the mode of the file hello the same as o
 chmod -R a+X . script adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
 mkdir -m 751 my_dir script creates a directory called my_dir with permissions 751 in the working directory.
 chgrp school hello script changes the group owner to school for the file hello.
+chown vincent:staff * script changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
+chown -h vincent:staff _hello script changes the owner and the group owner of _hello to vincent and staff respectively.
+chown --from=guililaume betty hello script changes the owner of the file hello to betty only if it is owned by the user guillaume.
+telnet towel.blinkenlights.nl script will play the StarWars IV episode in the terminal.
